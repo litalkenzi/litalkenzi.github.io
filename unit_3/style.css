@@ -1,16 +1,23 @@
-<body>	
-{
-	<h1> padding-top: 175px;
-	padding-bottom: 0px;
-	font-size: 26px;
-	font-style: normal;
-	font-varian: normal;
-	font-weight: normal;
-	line-height: 0.5;
-	color: rgb(156,219,159);
-	text-align: center;
-	</h1>
-	<h2>top: -50px;
+body {
+    background-color: black;
+}	
+
+
+h1 {
+    padding-top: 175px;
+    padding-bottom: 0px;
+    font-size: 26px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 0.5;
+    color: rgb(156,219,159);
+    text-align: center;
+}
+
+
+h2 {
+    top: -50px;
     font-family: "Open Sans";
     font-size: 71px;
     font-style: normal;
@@ -20,17 +27,22 @@
     line-height: 0.05;
     color: #D5D3CB;
     text-align: center;
-    </h2>
-    <h3>font-family: "Open Sans";
-	font-size: 43px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	line-height: 1;
-	color: #E6645A;
-	text-align: center;
-	</h3>
-	<h4>margin-top: 0px;
+
+}
+
+h3 {
+    font-family: "Open Sans";
+    font-size: 43px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: #E6645A;
+    text-align: center;
+}
+	
+h4 {
+       margin-top: 0px;
     padding-top: 95px;
     padding-bottom: 0px;
     font-size: 27px;
@@ -39,6 +51,6 @@
     font-weight: normal;
     line-height: 1;
     color: #606060;
-    text-align: center;
-    </h4>
+    text-align: center 
 }
+	
