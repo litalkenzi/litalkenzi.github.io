@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(201,191,198);
+    background-color: black;
+    background-image: url(../images/cactus.jpg);
 }	
 
 h1 {
