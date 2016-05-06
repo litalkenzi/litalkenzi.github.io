@@ -1,6 +1,10 @@
 body {
     background-color: black;
-    background-image: url(../images/me.jpg);
+    background-image: url(../images/retrodesk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
 }	
 
 h1 {
@@ -55,4 +59,13 @@ h4 {
 }
 	
 a {text-align: center;
+    display: block;
+}
+hr {
+    width: 500px;
+}
+img{
+    width: 200px;
+    display: block;
+    margin:40px auto; 
 }
