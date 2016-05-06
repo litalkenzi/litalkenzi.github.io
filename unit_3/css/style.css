@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background-image: url(../images/fireworks.jpg);
+    background-image: url(../images/me.jpg);
 }	
 
 h1 {
@@ -54,3 +54,5 @@ h4 {
     text-align: center; 
 }
 	
+a {text-align: center;
+}
