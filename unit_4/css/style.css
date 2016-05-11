@@ -1,15 +1,21 @@
 body {
     background-color: black;
-    background-image: url(../images/retrodesk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
     height: 100vh;
 }	
-
+#creativemind {
+    float: left;
+    position: absolute;
+    top:0px;
+}
+#creativemind img {
+    margin-top: 0px;
+}
 h1 {
-    padding-top: 175px;
+    padding-top: 150px;
     padding-bottom: 0px;
     font-size: 26px;
     font-style: normal;
@@ -69,4 +75,7 @@ img{
     width: 200px;
     display: block;
     margin:40px auto; 
+}
+#me {
+    margin-top: 30px;
 }
