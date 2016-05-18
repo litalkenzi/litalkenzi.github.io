@@ -11,7 +11,7 @@ body {
     position: absolute;
     top:0px;
 }
-#creativemind img {
+#creativemind {
     margin-top: 0px;
 }
 h1 {
@@ -27,7 +27,7 @@ h1 {
 }
 
 
-h2 {
+.gray {
     top: -50px;
     font-family: "Open Sans";
     font-size: 71px;
