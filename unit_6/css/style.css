@@ -19,7 +19,7 @@ nav a {
 }
 section#splash {
     background: #222;
-    height: 70vh;
+    height: 80vh;
     position:relative;
     text-align: center;
     z-index: -1;
