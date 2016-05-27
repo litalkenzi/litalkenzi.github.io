@@ -19,8 +19,20 @@ nav a {
 }
 section#splash {
     background: #222;
+<<<<<<< HEAD
     height: 95vh;
+=======
+    height: 85vh;
+    position:relative;
+>>>>>>> origin/master
     text-align: center;
+    z-index: -1;
+}
+section#splash .scroll {
+	position:absolute;
+	bottom:1em;
+	left:50%;
+	transform:translateX(-50%);
 }
 section#splash p {
     color: rgb(230, 100, 90);
