@@ -19,14 +19,14 @@ nav a {
 }
 section#splash {
     background: #222;
-    height: 100vh;
+    height: 95vh;
     text-align: center;
 }
 section#splash p {
     color: rgb(230, 100, 90);
 }
 h1 {
-    padding-top: 12em;
+    padding-top: 10em;
     padding-bottom: 0px;
     font-size: 26px;
     font-style: normal;
@@ -37,8 +37,12 @@ h1 {
 }
 h1 span {
     display:block;
+    line-height: 1.2em;
 }
+h2 {
+    padding-top: 4em;
 
+}
 .gray {
     font-family: "Open Sans";
     font-size: 71px;
