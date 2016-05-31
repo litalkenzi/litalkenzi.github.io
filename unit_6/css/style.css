@@ -14,23 +14,20 @@ nav a {
     float:left;
     margin:1em;
     padding:1em;
-    color:#fff;
+    color: rgb(156,219,159);
     text-decoration:none;
 }
 section#splash {
     background: #222;
-<<<<<<< HEAD
     height: 95vh;
-=======
     height: 85vh;
     position:relative;
->>>>>>> origin/master
     text-align: center;
     z-index: -1;
 }
 section#splash .scroll {
 	position:absolute;
-	bottom:1em;
+	bottom:4em;
 	left:50%;
 	transform:translateX(-50%);
 }
@@ -50,12 +47,14 @@ h1 {
 }
 h1 span {
     display:block;
-    text-underline-position: center;
     line-height: 1.2em;
 }
 h2 {
-    padding-top: 4em;
-
+    padding-top: 1.2em;
+    text-align: center;
+}
+p {
+    text-align: center;
 }
 .gray {
     font-family: "Open Sans";
@@ -65,6 +64,32 @@ h2 {
     font-weight: normal;
     letter-spacing: 11px;
     color: #595457;
+}
+
+.wide.gray {
+    background-color: #EDEDED;
+}
+section #services {
+    float: left;
+    background-color: rgb(191,180,187);
+    width: 200px;
+    padding: 5px 0;
+    margin: 0 0 0 10px;
+}
+
+aside {
+    float: right;
+    font-size:  14px;
+    width: 150px;
+    padding: 10px 0;
+    margin: 0 20px 0 0;
+}
+
+.column {
+    float: left;
+}
+section #services p {
+    position: center;
 }
 
 h3 {
@@ -108,4 +133,12 @@ header img{
 }
 #me {
     margin-top: 30px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "services";
+    clear: both;
+    height: 0;
 }
