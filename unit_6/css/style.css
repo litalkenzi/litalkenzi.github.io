@@ -1,6 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-    background-color: rgb(255,188,157);
+    background-color: #EDEDED;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -66,25 +66,30 @@ p {
     color: #595457;
 }
 
-.wide.gray {
-    background-color: #EDEDED;
-}
 section #services {
-    float: left;
-    background-color: rgb(191,180,187);
-    width: 200px;
+    background-color: #EDEDED;
     padding: 5px 0;
     margin: 0 0 0 10px;
 }
 
-aside {
-    float: right;
-    font-size:  14px;
-    width: 150px;
-    padding: 10px 0;
-    margin: 0 20px 0 0;
+.two-columns {
+    float: left;
+    width: 50%;
+    height: 400px;
+    padding: 2em 5em;
+    margin-bottom: 2em;
 }
-
+.image-wrapper {
+    width:200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.image-wrapper img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 1em 0em;
+}
 .column {
     float: left;
 }
