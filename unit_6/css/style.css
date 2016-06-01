@@ -83,12 +83,13 @@ section #services {
     width:200px;
     height: 200px;
     margin: 0 auto;
+    padding: 1em 1.5em;
 }
 .image-wrapper img {
     width: 100%;
     margin: 0 auto;
     display: block;
-    padding: 1em 0em;
+    padding: 2em 0em;
 }
 .column {
     float: left;
@@ -107,23 +108,11 @@ h3 {
     color: #E6645A;
     text-align: center;
 }
-	
-h4 {
-       margin-top: 0px;
-       padding-top: 95px;
-       padding-bottom: 0px;
-       font-size: 27px;
-       font-style: normal;
-       font-variant: normal;
-       font-weight: normal;
-       line-height: 1;
-       color: rgba(0,0,0,.54);
-       text-align: center;
-}
 p {
     margin-top:1em
 }	
-a {text-align: center;
+a {
+    text-align: center;
     display: block;
 }
 hr {
@@ -138,6 +127,7 @@ header img{
 }
 #me {
     margin-top: 30px;
+    float: right;
 }
 .clearfix:after {
     visibility: hidden;
@@ -146,4 +136,10 @@ header img{
     content: "services";
     clear: both;
     height: 0;
+}
+section #about {
+    text-align: left;
+}
+section #contact {
+    padding: 1em;
 }
