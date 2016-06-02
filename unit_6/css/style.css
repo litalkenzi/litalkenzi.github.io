@@ -1,4 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+
 body {
     background-color: #EDEDED;
     background-repeat: no-repeat;
@@ -7,9 +8,17 @@ body {
     background-attachment: fixed;
     color: #40444;
 }
+
+header img{
+    width: 200px;
+    display: block;
+    float:left;
+}
+
 nav {
     float:right;
 }
+
 nav a {
     float:left;
     margin:1em;
@@ -17,6 +26,7 @@ nav a {
     color: rgb(156,219,159);
     text-decoration:none;
 }
+
 section#splash {
     background: #222;
     height: 95vh;
@@ -34,6 +44,20 @@ section#splash .scroll {
 section#splash p {
     color: rgb(230, 100, 90);
 }
+
+section #services {
+    background-color: #EDEDED;
+    padding: 5px 0;
+    margin: 0 0 0 10px;
+}
+
+section #about {
+    text-align: left;
+}
+section #contact {
+    padding: 1em;
+}
+
 h1 {
     padding-top: 10em;
     padding-bottom: 0px;
@@ -45,17 +69,45 @@ h1 {
     color: rgb(156,219,159);
     line-height: 1;
 }
+
 h1 span {
     display:block;
     line-height: 1.2em;
 }
+
 h2 {
     padding-top: 1.2em;
     text-align: center;
 }
-p {
+
+h3 {
+    font-family: "Open Sans";
+    font-size:2em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: #E6645A;
     text-align: center;
 }
+
+p {
+    font-size: 1em;
+    text-align: center;
+     margin:1em auto 0;
+     width:40em;
+}
+
+a {
+    text-align: center;
+    display: block;
+}
+hr {
+    margin:1em auto;
+    width: 500px;
+    border: #595457 1px solid;
+}
+
 .gray {
     font-family: "Open Sans";
     font-size: 71px;
@@ -66,68 +118,36 @@ p {
     color: #595457;
 }
 
-section #services {
-    background-color: #EDEDED;
-    padding: 5px 0;
-    margin: 0 0 0 10px;
-}
-
 .two-columns {
     float: left;
     width: 50%;
-    height: 400px;
+    height: 500px;
     padding: 2em 5em;
     margin-bottom: 2em;
 }
+
 .image-wrapper {
-    width:200px;
-    height: 200px;
-    margin: 0 auto;
+    width:300px;
+    height: 300px;
+    margin: 0 auto 1em;
     padding: 1em 1.5em;
 }
+
 .image-wrapper img {
     width: 100%;
     margin: 0 auto;
     display: block;
     padding: 2em 0em;
 }
+
 .column {
     float: left;
 }
-section #services p {
-    position: center;
-}
 
-h3 {
-    font-family: "Open Sans";
-    font-size: 43px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    color: #E6645A;
-    text-align: center;
-}
-p {
-    margin-top:1em
-}	
-a {
-    text-align: center;
+
+#headshot {
     display: block;
-}
-hr {
-    margin:1em auto;
-    width: 500px;
-    border: #595457 1px solid;
-}
-header img{
-    width: 200px;
-    display: block;
-    float:left;
-}
-#me {
-    margin-top: 30px;
-    float: right;
+    margin: 30px auto;
 }
 .clearfix:after {
     visibility: hidden;
@@ -136,10 +156,4 @@ header img{
     content: "services";
     clear: both;
     height: 0;
-}
-section #about {
-    text-align: left;
-}
-section #contact {
-    padding: 1em;
 }
