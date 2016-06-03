@@ -43,10 +43,10 @@ section#splash {
 }
 
 section#splash .scroll {
-	position:absolute;
-	bottom:2em;
-	left:50%;
-	transform:translateX(-50%);
+    position:absolute;
+    bottom:2em;
+    left:50%;
+    transform:translateX(-50%);
 }
 
 section#splash p {
