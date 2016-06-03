@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300);
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
@@ -6,11 +9,14 @@ body {
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
-    color: #40444;
+    color: rgba(0,0,0,.87);
+    font-family: 'Merriweather', serif;
+    font-weight:300;
 }
 
 header img{
     width: 200px;
+    padding-left: 0.8em;
     display: block;
     float:left;
 }
@@ -28,51 +34,54 @@ nav a {
 }
 
 section#splash {
+    font-style: normal;
     background: #222;
-    height: 95vh;
     height: 85vh;
     position:relative;
     text-align: center;
     z-index: -1;
 }
+
 section#splash .scroll {
 	position:absolute;
-	bottom:4em;
+	bottom:2em;
 	left:50%;
 	transform:translateX(-50%);
 }
+
 section#splash p {
     color: rgb(230, 100, 90);
 }
 
-section #services {
+section#services {
     background-color: #EDEDED;
     padding: 5px 0;
     margin: 0 0 0 10px;
 }
 
-section #about {
+section#about {
     text-align: left;
+    background: purple;
 }
-section #contact {
+
+section#contact {
     padding: 1em;
 }
 
 h1 {
-    padding-top: 10em;
+    padding-top: 15em;
     padding-bottom: 0px;
     padding-left: 1.2em;
-    font-size: 26px;
+    font-size: 1.25em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
     color: rgb(156,219,159);
-    line-height: 1;
+    line-height: 1.2;
 }
 
 h1 span {
     display:block;
-    line-height: 1.2em;
 }
 
 h2 {
@@ -81,7 +90,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size:2em;
     font-style: normal;
     font-variant: normal;
@@ -109,13 +118,13 @@ hr {
 }
 
 .gray {
-    font-family: "Open Sans";
-    font-size: 71px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5em;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    letter-spacing: 11px;
-    color: #595457;
+    letter-spacing: 12px;
+    color: #EDEDED;
 }
 
 .two-columns {
@@ -144,11 +153,11 @@ hr {
     float: left;
 }
 
-
 #headshot {
     display: block;
     margin: 30px auto;
 }
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -156,4 +165,8 @@ hr {
     content: "services";
     clear: both;
     height: 0;
+}
+
+footer {
+    padding: 2em 5em;
 }
