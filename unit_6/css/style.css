@@ -51,6 +51,7 @@ section#splash .scroll {
 
 section#splash p {
     color: rgb(230, 100, 90);
+    padding-bottom: 1em;
 }
 
 section#services {
@@ -61,7 +62,8 @@ section#services {
 
 section#about {
     text-align: left;
-    background: purple;
+    background: rgb(255,229,207);
+    padding: 1em 1.5em;
 }
 
 section#contact {
