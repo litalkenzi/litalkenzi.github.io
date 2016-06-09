@@ -42,13 +42,6 @@ section#splash {
     z-index: -1;
 }
 
-section#splash .scroll {
-    position:absolute;
-    bottom:2em;
-    left:50%;
-    transform:translateX(-50%);
-}
-
 section#splash p {
     color: rgb(230, 100, 90);
     padding-bottom: 1em;
@@ -93,7 +86,7 @@ h1 span {
 }
 
 h2 {
-    padding-top: 1.2em;
+    padding-top: 1.0em;
     text-align: center;
 }
 
