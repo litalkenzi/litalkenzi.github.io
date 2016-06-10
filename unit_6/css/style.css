@@ -21,6 +21,13 @@ header img{
     float:left;
 }
 
+header {
+    background: #222;
+    position: fixed; 
+    top: 0 ;
+    left: 0;
+    width: 100%;
+}
 nav {
     float:right;
 }
@@ -31,6 +38,10 @@ nav a {
     padding:1em;
     color: rgb(156,219,159);
     text-decoration:none;
+}
+
+nav a img {
+    width: 40px;
 }
 
 section#splash {
@@ -49,24 +60,29 @@ section#splash p {
 
 section#services {
     background-color: #EDEDED;
-    padding: 5px 0;
+    padding: 1.5em 0;
     margin: auto;
     max-width: 75em;
 }
 section#services>p {
     text-align:center;
 }
+
+section#services div {
+    margin: 1em 0;
+}
 section#about {
     text-align: left;
     background: rgb(255,229,207);
-    padding: 1em 1.5em;
+    padding: 1em 1.5em 3.5em;
 }
 #about div {
     max-width: 60em;
     margin: auto;
 }
-section#contact {
-    padding: 1em;
+#about a {
+    padding-top: 2em;
+    text-align: left;
 }
 
 h1 {
@@ -104,6 +120,7 @@ h3 {
 p {
     font-size: 1em;
     margin:1em auto 0;
+    line-height: 1.6em;
 }
 
 a {
@@ -161,6 +178,7 @@ hr {
     float: right;
     width: 33.33%;
     padding-left: 2em;
+    padding-top: 1.5em;
 }
 
 .clearfix:after {
@@ -174,46 +192,15 @@ hr {
 
 footer {
     padding: 2em 5em;
+    height: 95px;
+    text-align: center;
+    background: #222;
+    color: #EDEDED;
 }
 
-@media only screen and (max-width:1031px) {
+@media only screen and (max-width:744px) {
     .two-columns {
-        min-height: 46em;
+        float: none;
+        width: 100%;
     }
-}
-
-@media only screen and (max-width:1033px) {
-    .two-columns {
-        min-height: 50em;
-        }
-}
-
-@media only screen and (max-width:880px) {
-    .two-columns {
-        min-height: 55em;
-        }
-}
-
-@media only screen and (max-width:800px) {
-    .two-columns {
-        min-height: 55em;
-        }
-}
-
-@media only screen and (max-width:780px) {
-    .two-columns {
-        min-height: 57em;
-        }
-}
-
-@media only screen and (max-width:720px) {
-    .two-columns {
-        min-height:61em;
-        }
-}
-
-@media only screen and (max-width:679px) {
-    .two-columns {
-        min-height: 68em;
-        }
 }
