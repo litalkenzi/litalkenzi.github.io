@@ -203,4 +203,16 @@ footer {
         float: none;
         width: 100%;
     }
+
+@media only screen and (max-width: 400px) {
+    header {
+        width: 80%;
+    }
+
+@media only screen and (max-width: 400px) {
+    .gray {
+        font-size: 2em;
+    }
+}    
 }
+
