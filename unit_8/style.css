@@ -198,16 +198,29 @@ footer {
     color: #EDEDED;
 }
 
-@media only screen and (max-width:744px) {
+@media only screen and (max-width:744px){
     .two-columns {
+        background:yellow;
         float: none;
         width: 100%;
     }
 }
-@media only screen and (max-width: 400px) {
-    header {
-        width: 80%;
+
+@media only screen and (max-width: 615px) {
+    nav {
+        float: none;
+        width: 100%;
     }
+    header img {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    header {
+        width: 70%;
+    }
+
     .gray {
         font-size: 2em;
     }   
