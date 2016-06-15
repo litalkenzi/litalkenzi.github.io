@@ -200,19 +200,33 @@ footer {
 
 @media only screen and (max-width:744px) {
     .two-columns {
+        background:yellow;
         float: none;
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 615px) {
+    nav {
+        float: none;
+    }
+    header img {
+        float: none;
+    }
+}
 
 @media only screen and (max-width: 400px) {
     header {
         width: 80%;
     }
-
-@media only screen and (max-width: 400px) {
     .gray {
         font-size: 2em;
+    }   
+    nav {
+        float: none;
     }
-}    
 }
+
+ 
+
 
