@@ -47,7 +47,7 @@ nav a img {
 section#splash {
     font-style: normal;
     background: #222;
-    height: 85vh;
+    height: 91vh;
     position:relative;
     text-align: center;
     z-index: -1;
@@ -102,7 +102,6 @@ h1 span {
 }
 
 h2 {
-    padding-top: 1.0em;
     text-align: center;
 }
 
