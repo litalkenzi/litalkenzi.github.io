@@ -202,6 +202,9 @@ footer {
         height: auto;
         padding-bottom: 5em;
     }
+    h2 {
+        padding-top: 1em;
+    }
 }
 
 @media only screen and (max-width:744px) {
