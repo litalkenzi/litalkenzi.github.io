@@ -200,8 +200,8 @@ footer {
 @media only screen and (max-width:1042px) {
     section#splash {
         height: auto;
-        padding-bottom: 4em;
-        padding-top: 10em;
+        padding-bottom: 6em;
+        padding-top: 7em;
     }
 }
 
